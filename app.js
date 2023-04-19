@@ -4,7 +4,6 @@ let size = 16;
 
 function createGrid(x){
     let totalSize = x*x;
-    //boardDiv.style.gridTemplateColum
 
     //1fr syntax for determining the divisions for each row/column 
     //eg if x = 4, it would be 25%, 4/100=.25
@@ -55,8 +54,9 @@ function clearFunction() {
     }
 
   }
-  
-  // METHOD 2
+
+
+  //buttons call functions
   btn.onclick = clearFunction;
 
   btn2.onclick = resizeFunction;

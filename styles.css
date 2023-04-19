@@ -1,7 +1,10 @@
 .main{
     display: flex;
     justify-content: center;
-
+    
+}
+body{
+    background-color: aqua;
 }
 
 h1{
